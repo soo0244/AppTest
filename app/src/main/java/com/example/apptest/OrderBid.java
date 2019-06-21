@@ -36,7 +36,7 @@ public class OrderBid extends Fragment {
     Spinner compToCurrentSpinner, amountSpinner;
     String[] amountSpinnerData = {"가능", "최대", "50%", "25%", "10%"};
     String[] compToCurrentData = {"현재가 대비%", "20%", "15%", "10%", "5%", "0", "-5%", "-10%", "-15%", "-20%" };
-
+// user
     EditText editPrice, editAmount;
     String orderType="bid";
     boolean isCheckedMarketPrice = false;
